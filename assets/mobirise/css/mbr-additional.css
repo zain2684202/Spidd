@@ -1757,19 +1757,22 @@ section.lazy-placeholder:after {
 .cid-rXxU2N8eR1 P {
   color: #767676;
 }
-.cid-sboLyZWrkt {
-  padding-top: 60px;
+.cid-sboOe8vJMZ {
+  padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-sboLyZWrkt .mbr-section-subtitle {
-  color: #232323;
+.cid-sboOe8vJMZ P {
+  color: #767676;
 }
-.cid-sboLyZWrkt .btn {
-  margin: 0 0 .5rem 0;
-}
-.cid-sboLyZWrkt H2 {
+.cid-sboOe8vJMZ H1 {
   color: #232323;
+  text-align: center;
+}
+.cid-sboOe8vJMZ .mbr-text,
+.cid-sboOe8vJMZ .mbr-section-btn {
+  text-align: center;
+  color: #000000;
 }
 .cid-s23jyvkM4Y {
   padding-top: 30px;
