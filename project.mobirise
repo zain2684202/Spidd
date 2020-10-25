@@ -691,52 +691,6 @@
           "_params": {}
         },
         {
-          "_name": "design-block",
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            },
-            ".floating-bar": {
-              "position": "fixed",
-              "width": "60px",
-              "height": "60px",
-              "bottom": "40px",
-              "right": "40px",
-              "background-color": "@bgcolor",
-              "color": "@iconcolor",
-              "border-radius": "unit(@borderRadius, ~'%')",
-              "text-align": "center",
-              "& when (@shadow = true)": {
-                "box-shadow": "2px 2px 2px #999"
-              },
-              "& when (@transition = true)": {
-                "transition": "0.3s"
-              },
-              "z-index": "99999"
-            },
-            ".floating-bar:hover": {
-              "background-color": "@hovercolor"
-            },
-            ".floating-button": {
-              "color": "@iconcolor"
-            },
-            ".valign": {
-              "position": "relative",
-              "top": "50%",
-              "transform": "translateY(-50%)"
-            }
-          },
-          "_customHTML": "<section class=\"header1\" group=\"Headers\">\n    <mbr-parameters>\n       <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"color\" title=\"Icon Color\" name=\"iconcolor\" value=\"#ffffff\">\n       <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#ff3c0f\">\n       <input type=\"color\" title=\"Hover Color\" name=\"hovercolor\" value=\"#ff5500\">\n       <input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"50\">\n       <input type=\"checkbox\" title=\"Shadow\" name=\"shadow\">\n       <input type=\"checkbox\" title=\"Transition\" name=\"transition\" checked=\"\">\n       <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a href=\"www.m.me/espider.io\" class=\"floating-bar\">\n        <div class=\"valign\">\n            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn floating-button fa-facebook-messenger fab fa-fw\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 40px;\"></span>\n        </div>        \n    </a>\n \n    <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the button. This text will be removed on preview/publish.</div>\n\n</section>",
-          "_anchor": "design-block-nq",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "seppSaXlXh",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -2484,6 +2438,52 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            },
+            ".floating-bar": {
+              "position": "fixed",
+              "width": "60px",
+              "height": "60px",
+              "bottom": "40px",
+              "right": "40px",
+              "background-color": "@bgcolor",
+              "color": "@iconcolor",
+              "border-radius": "unit(@borderRadius, ~'%')",
+              "text-align": "center",
+              "& when (@shadow = true)": {
+                "box-shadow": "2px 2px 2px #999"
+              },
+              "& when (@transition = true)": {
+                "transition": "0.3s"
+              },
+              "z-index": "99999"
+            },
+            ".floating-bar:hover": {
+              "background-color": "@hovercolor"
+            },
+            ".floating-button": {
+              "color": "@iconcolor"
+            },
+            ".valign": {
+              "position": "relative",
+              "top": "50%",
+              "transform": "translateY(-50%)"
+            }
+          },
+          "_customHTML": "<section class=\"header1\" group=\"Headers\">\n    <mbr-parameters>\n       <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"color\" title=\"Icon Color\" name=\"iconcolor\" value=\"#ffffff\">\n       <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#ff3c0f\">\n       <input type=\"color\" title=\"Hover Color\" name=\"hovercolor\" value=\"#ff5500\">\n       <input type=\"range\" inline title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"50\">\n       <input type=\"checkbox\" title=\"Shadow\" name=\"shadow\">\n       <input type=\"checkbox\" title=\"Transition\" name=\"transition\" checked>\n       <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a href=\"https://www.m.me/espider.io\" class=\"floating-bar\">\n        <div class=\"valign\">\n            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn floating-button fa-facebook-messenger fab fa-fw\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 40px;\"></span>\n        </div>        \n    </a>\n \n    <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the button. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-nq",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "seppSaXlXh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
