@@ -1206,6 +1206,33 @@ section.lazy-placeholder:after {
   color: #333333;
   text-align: center;
 }
+.cid-seppSaXlXh .hidden {
+  display: none;
+}
+.cid-seppSaXlXh .floating-bar {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #ff3c0f;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.3s;
+  z-index: 99999;
+}
+.cid-seppSaXlXh .floating-bar:hover {
+  background-color: #ff5500;
+}
+.cid-seppSaXlXh .floating-button {
+  color: #ffffff;
+}
+.cid-seppSaXlXh .valign {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .cid-rTp2T9Eetg {
   padding-top: 30px;
   padding-bottom: 30px;
